@@ -1,0 +1,162 @@
+/*Main Body of Site*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/*headings*/
+h1 {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.5em;
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+}
+
+.top-container h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+font-family: 'Dancing Script', cursive;
+color: #11999E;
+font-size: 1.5em
+}
+/*basic content*/
+p {
+  margin: 0;
+}
+
+hr{
+  border: 0.3px solid black
+}
+
+sub{
+  font-family: 'Dancing Script', cursive;
+}
+
+/*Main containers*/
+.top-container {
+  background-color: #9be3de;
+  position: relative;
+  padding-top: 60px;
+  margin: 0;
+
+}
+
+.middle-container {
+  background-color: #fffdf9;
+  margin: 0;
+
+}
+
+.footer {
+background-color: #beebe9;
+padding-bottom:20px;
+}
+
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+
+}
+
+.profile{
+width: 50%;
+margin: 10px auto 10px auto;
+line-height: 2;
+
+}
+
+.contact-me{
+
+  margin-bottom: 5px;
+}
+
+#contact-button{
+width: 12%;
+margin: 20px auto 20px auto;
+display: inline-block;
+}
+
+
+#btn {
+  background: rgb(102,191,191);
+  background: linear-gradient(0deg, rgba(102,191,191,1) 37%, rgba(130,230,230,1) 72%);
+	padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+
+
+#contact-button a:hover{
+  background: rgb(92,171,171);
+  background: linear-gradient(0deg, rgba(92,171,171,1) 37%, rgba(110,210,210,1) 72%);
+  text-decoration: none;
+
+}
+.footer-link {
+  color: #5eafac;
+	padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+
+
+/*images*/
+.mountain{
+
+  position: relative;
+  top:4px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 310px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 275px;
+  top: 40px;
+}
+
+.harry{
+  width: 25%;
+  margin: 0 auto 0 auto;
+}
+
+.professional{
+width: 25%;
+float: left;
+margin-right: 30px;
+padding-top: 65px;
+
+}
+
+.hobbies{
+width: 25%;
+float: right;
+margin-left: 30px;
+padding-top: 65px;
+}
